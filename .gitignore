@@ -1,2 +1,48 @@
-node_modules 
+# Dependencies
+node_modules/
+
+# Build
 dist/
+build/
+*.tsbuildinfo
+
+# Environment & secrets — never commit real credentials
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Coverage / test output
+coverage/
+.nyc_output/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Keys & certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+id_rsa
+id_rsa.pub
+*.keystore
+
+# Local / temp
+*.local
+tmp/
+temp/
+.cache/
